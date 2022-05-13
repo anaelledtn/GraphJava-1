@@ -6,7 +6,7 @@ public interface Graph {
 	public void addVertex(Vertex v1);
 	public void adddUndirectedEdge(Edge e);
 	public void addDirectedEdge(DirectedEdge e);
-	public boolean isConnected(Vertex v1,Vertex v2);
+	public boolean isConnected(Vertex v1, Vertex v2);
 	public boolean isConnected();
 	public Edge[] getEdges(Vertex v1, Vertex v2);
 	public Edge[] getEdges();
