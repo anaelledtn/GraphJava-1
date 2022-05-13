@@ -2,8 +2,8 @@ package graph;
 
 public class Vertex {
 	// Attributs
-	static int counterId = 0;
-	public int id;
+	static int counterId = -1;
+	private int id;
 	private Object info;
 	private Color color;
 
@@ -12,5 +12,9 @@ public class Vertex {
 		this.id = counterId++;
 		this.info = info;
 		this.color = color;
+	}
+
+	public int id() {
+		return this.id;
 	}
 }

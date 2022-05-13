@@ -2,8 +2,8 @@ package graph;
 
 public class Edge {
 	// Attributs
-	static int counterId = 0;
-	public int id;
+	static int counterId = -1;
+	private int id;
 	private Color color;
 	private Vertex[] ends;
 	private double value;
@@ -18,6 +18,10 @@ public class Edge {
 
 	public Vertex[] getEnds() {
 		return this.ends;
+	}
+
+	public int id() {
+		return this.id;
 	}
 
 	public String toString() {
