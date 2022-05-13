@@ -3,7 +3,7 @@ package graph;
 public class Vertex {
 	// Attributs
 	static int counterId = 0;
-	private int id;
+	public int id;
 	private Object info;
 	private Color color;
 

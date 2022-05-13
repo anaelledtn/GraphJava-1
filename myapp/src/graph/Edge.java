@@ -3,7 +3,7 @@ package graph;
 public class Edge {
 	// Attributs
 	static int counterId = 0;
-	private int id;
+	public int id;
 	private Color color;
 	private Vertex[] ends;
 	private double value;

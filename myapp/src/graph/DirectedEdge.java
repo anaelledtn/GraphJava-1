@@ -4,7 +4,7 @@ public class DirectedEdge extends Edge {
 	// Attributs
 	private int source;
 	static int counterId = 0;
-	private int id;
+	public int id;
 	private Color color;
 	private Vertex[] ends;
 	private double value;
