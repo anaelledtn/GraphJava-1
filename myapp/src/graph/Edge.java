@@ -2,7 +2,7 @@ package graph;
 
 public class Edge {
 	// Attributs
-	static int counterId = -1;
+	static int counterId = 0;
 	private int id;
 	private Color color;
 	private Vertex[] ends;
@@ -11,6 +11,7 @@ public class Edge {
 	public Edge(Vertex sommet1, Vertex sommet2, double value, Color color) {
 		this.id = counterId++;
 		this.color = color;
+		this.ends = new Vertex[2];
 		this.ends[0] = sommet1;
 		this.ends[1] = sommet2;
 		this.value = value;

@@ -1,2 +1,0 @@
-Main-Class: graph.MyTest.java;
- 
